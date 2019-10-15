@@ -108,7 +108,7 @@ creative_commons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+scheme: Pisces
 #scheme: Mist
 #scheme: Pisces
 #scheme: Gemini
@@ -126,13 +126,10 @@ scheme: Muse
 # External url should start with http:// or https://
 menu:
   home: / || home
-  #about: /about/ || user
-  #tags: /tags/ || tags
-  #categories: /categories/ || th
-  archives: /archives/ || archive
-  #schedule: /schedule/ || calendar
-  #sitemap: /sitemap.xml || sitemap
-  #commonweal: /404/ || heartbeat
+  categories: /categories || folder
+  about: /about || id-badge
+  archives: /archives || archive
+  tags: /tags || tags
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -147,7 +144,7 @@ menu_settings:
 
 sidebar:
   # Sidebar Position.
-  position: left
+  position: right
   #position: right
 
   # Manual define the sidebar width. If commented, will be default for:
@@ -172,7 +169,7 @@ avatar:
   # In theme directory (source/images): /images/avatar.gif
   # In site directory (source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: #/images/avatar.gif
+  url:  /img/author.jpg #/images/avatar.gif
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # If true, the avatar would be rotated with the cursor.
@@ -187,6 +184,10 @@ site_state: true
 # Value before `||` delimiter is the target permalink.
 # Value after `||` delimiter is the name of Font Awesome icon. If icon (with or without delimiter) is not specified, globe icon will be loaded.
 social:
+  github: https://github.com/buxuku
+  weibo: http://weibo.com/xiaodong5959
+  douban: https://www.douban.com/people/42031633/
+  zhihu: https://www.zhihu.com/people/xiaodong5959
   #GitHub: https://github.com/yourname || github
   #E-Mail: mailto:yourname@gmail.com || envelope
   #Weibo: https://weibo.com/yourname || weibo
@@ -201,6 +202,10 @@ social:
 
 social_icons:
   enable: true
+  # Icon Mappings
+  github: github
+  Twitter: twitter
+  weibo: weibo
   icons_only: false
   transition: false
 
