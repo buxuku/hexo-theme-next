@@ -128,7 +128,7 @@ menu:
   home: / || home
   categories: /categories || folder
   about: /about || id-badge
-  archives: /archives || archive
+  archives: /archives || 时间线
   tags: /tags || 标签
 
 # Enable / Disable menu icons / item badges.
