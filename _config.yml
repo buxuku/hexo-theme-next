@@ -129,7 +129,7 @@ menu:
   categories: /categories || folder
   about: /about || id-badge
   archives: /archives || archive
-  tags: /tags || tags
+  tags: /tags || 标签
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
